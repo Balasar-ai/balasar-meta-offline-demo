@@ -1,0 +1,21 @@
+{
+  "mechanism": "Linux seccomp, inherited syscall denial (EPERM)",
+  "probe": "KERNEL_NETWORK_BLOCK_CONFIRMED",
+  "blocked": [
+    "socket",
+    "socketpair",
+    "connect",
+    "bind",
+    "listen",
+    "accept",
+    "accept4",
+    "sendto",
+    "sendmsg",
+    "sendmmsg"
+  ],
+  "demoExitCode": 0,
+  "node": "v24.22.1",
+  "environment": "PATH LANG TMPDIR only; no inherited credentials",
+  "realMetaCalls": 0,
+  "applicationNetworkAttempts": 0
+}

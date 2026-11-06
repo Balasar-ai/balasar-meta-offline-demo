@@ -1,0 +1,114 @@
+{
+  "base": "940182e8bc28fc796f7d3b4ed0095b4d98d8844a",
+  "at": "2026-11-05T06:43:39.334Z",
+  "adapter": "ONLY_TWO_IMPORT_PATHS_CHANGED",
+  "adapterTests": "ONLY_RELOCATED_IMPORTS_AND_SOURCE_READ_PATH_CHANGED",
+  "symbols": [
+    {
+      "source": "integrations.mjs",
+      "target": "src/redaction.mjs",
+      "symbol": "object",
+      "sha256": "00c9e5557cd13a6cbc8baf08d82e9d6d250ab1caaf359b74d55cdc29f02286cd",
+      "equal": true
+    },
+    {
+      "source": "integrations.mjs",
+      "target": "src/redaction.mjs",
+      "symbol": "redactIntegrationSecrets",
+      "sha256": "5da9a025f6547115fc7d815194b4cb1c5b90ac49e267b63f914be70899329df0",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "contexts",
+      "sha256": "d484aff4a46a532e20b4f9ba93f35f4d28bfbe084f1846bbdb7012b1f0b01647",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "fail",
+      "sha256": "b03d665aab9d7538cca7e862c878478e5738977e261af01fabc3470a92c12eb2",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "canonicalJson",
+      "sha256": "04796e1b3dd66d602cd2288a6b5f6860dc14e13792ed2bba970dd4296732eeed",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "contentHash",
+      "sha256": "aaf183cbc78dd4d498c90c351f7c24c6603661b2cf3d5bd7a48d444582ce0d47",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "identifier",
+      "sha256": "05049f65db06afe64d2dc1d2868a8f67b73961fa7254b73108874f48b9419c3b",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "createSessionContext",
+      "sha256": "8c11254de42ff540a7f9c303a93f18f5f6e0ec164150bc5d6b396239998ccc6d",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/contracts.mjs",
+      "symbol": "requireContext",
+      "sha256": "13eb6ba1ec685508ecfda7481c5c071fa96ec38b200288b12f4045fcde041962",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "fail",
+      "sha256": "b03d665aab9d7538cca7e862c878478e5738977e261af01fabc3470a92c12eb2",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "clone",
+      "sha256": "aab76ac5de578f4240109d897a2bf9d62db6a72c5201c5b61d898ff9dc924fde",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "identifier",
+      "sha256": "05049f65db06afe64d2dc1d2868a8f67b73961fa7254b73108874f48b9419c3b",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "inputRecord",
+      "sha256": "3dd55468b7557cfbfb6629b0e849ff490784d3cd5b960a3c7f2d99ae1c4140e6",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "verifyJournal",
+      "sha256": "77367e4b6eec371456ef53879137c565cbb8cb47a5164bcbcb8646cfcb1808a5",
+      "equal": true
+    },
+    {
+      "source": "store.mjs",
+      "target": "src/local-evidence.mjs",
+      "symbol": "EvidenceStore",
+      "sha256": "5dce2c601d76983d7e6a7873678c298db51a31b4dfe77ff761cfb4a381eda768",
+      "equal": true
+    }
+  ]
+}
+

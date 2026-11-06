@@ -1,0 +1,16 @@
+{"syntaxFiles":14,"runtimeFiles":5,"runtimeDependencies":0,"boundaryFailures":0}
+
+ RUN  v5.0.2 C:/workspace/balasar-meta-standalone-demo-20261105
+
+ ✓ tests/model-api.test.mjs (135 tests) 575ms
+ ✓ tests/local-evidence.test.mjs (10 tests) 45ms
+ ✓ tests/standalone.test.mjs (5 tests) 38ms
+ ✓ tests/contracts.test.mjs (15 tests) 8ms
+ ✓ tests/redaction.test.mjs (3 tests) 4ms
+
+ Test Files  5 passed (5)
+      Tests  168 passed (168)
+   Start at  07:42:47
+   Duration  1.28s (tests 73%, setup 15%, transform 7%, import 3%, worker 1%)
+
+

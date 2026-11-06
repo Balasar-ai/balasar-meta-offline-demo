@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "label": "SIMULATED",
+  "events": [
+    {
+      "id": "synthetic",
+      "message": "GESIMULEERD - geen Meta-aanroep, geen klantdata.",
+      "details": {
+        "scenario": "SYNTHETIC_PRODUCT_NOT_REAL"
+      }
+    },
+    {
+      "id": "prepare",
+      "message": "Voorbereiding voert niets uit en leest geen sleutel.",
+      "details": {
+        "state": "PREPARED_ONLY",
+        "credentialResolutions": 0
+      }
+    },
+    {
+      "id": "proposal",
+      "message": "Onbekende prijs en voorraad blijven onbekend.",
+      "details": {
+        "status": "REVIEW_REQUIRED",
+        "unknown": [
+          "price",
+          "stock",
+          "material"
+        ],
+        "simulatedCalls": 1
+      }
+    },
+    {
+      "id": "source",
+      "message": "Een verzonnen prijs wordt afgewezen.",
+      "details": {
+        "reason": "UNSUPPORTED_BY_SOURCE"
+      }
+    },
+    {
+      "id": "replay",
+      "message": "Een tweede poging met dezelfde grant is geblokkeerd.",
+      "details": {
+        "code": "ATTEMPT_ALREADY_CONSUMED",
+        "simulatedCalls": 1
+      }
+    },
+    {
+      "id": "reopen",
+      "message": "Na afsluiten en heropenen blijft de reservering bestaan.",
+      "details": {
+        "replayBlocked": true,
+        "extraSimulatedCalls": 0
+      }
+    },
+    {
+      "id": "session",
+      "message": "Vervalste sessie geweigerd; andere tenant ziet geen records.",
+      "details": {
+        "forgedSession": "BLOCKED",
+        "otherTenantRecords": 0
+      }
+    },
+    {
+      "id": "review",
+      "message": "Review geeft geen publicatierecht; gewijzigde bron blokkeert gebruik.",
+      "details": {
+        "status": "REVIEW_DRAFT_ONLY",
+        "publication": "NONE",
+        "changedSource": "BLOCKED"
+      }
+    },
+    {
+      "id": "redaction",
+      "message": "Fictief geheim ontbreekt in resultaat en bewijsbestand.",
+      "details": {
+        "secretPresent": false
+      }
+    },
+    {
+      "id": "complete",
+      "message": "Offline demonstratie geslaagd. Live uitvoering blijft geblokkeerd.",
+      "details": {
+        "assertions": "PASS",
+        "simulatedCalls": 1,
+        "externalNetworkAttempts": 0,
+        "realMetaCalls": 0
+      }
+    }
+  ],
+  "simulatedCalls": 1,
+  "externalNetworkAttempts": 0,
+  "realMetaCalls": 0
+}
